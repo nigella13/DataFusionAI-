@@ -1,0 +1,16 @@
+langchain
+python-dotenv
+langchain_community
+faiss-cpu
+streamlit
+langchain-core
+python-docx
+pypdf
+langchain-text-splitters
+langchain_openai
+langchain-huggingface
+mysql
+mysql-connector-python
+pyodbc
+openai
+duckduckgo-search
