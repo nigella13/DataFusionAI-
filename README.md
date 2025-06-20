@@ -9,7 +9,7 @@ This application leverages Ollama to connect with local large language models (L
 
 ### 1. Clone the repo
 
-```bash
+```bash ```
 git clone https://github.com/nigella13/DataFusionAI-.git
 
 
