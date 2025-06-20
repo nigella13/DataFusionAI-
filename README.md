@@ -1,6 +1,9 @@
 # My Python App
 
-This is a Python application that does XYZ...
+This application leverages Ollama to connect with local large language models (LLMs) for offline AI-powered responses.
+ It integrates with a local database to answer database-related queries and uses FAISS for efficient document retrieval, enabling question-answering on loaded documents. 
+ Additionally, it employs Retrieval-Augmented Generation (RAG) to fetch up-to-date information from the internet when needed.
+ Finally, it combines these capabilities with the local LLM's built-in knowledge to provide comprehensive answers across diverse queries.
 
 ## 🚀 Getting Started
 
@@ -10,12 +13,12 @@ This is a Python application that does XYZ...
 git clone https://github.com/nigella13/DataFusionAI-.git
 
 
-2. Install Dependencies
+#### 2. Install Dependencies
 
 pip install -r requirements.txt
 
 
-3. Setup the Database
+### 3. Setup the Database
 
 We use a sample MySQL database 
 
@@ -31,6 +34,7 @@ psql -U myuser -d mydb -f db/schema.sql
 
 
 
-4. Run the App
+### 🚀 4. Run the App
 
 python app.py
+
